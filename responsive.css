@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav ul li {
+        margin: 10px 0;
+    }
+
+    .pageone {
+        height: auto;
+    }
+
+    .pageone h1 {
+        font-size: 48px;
+    }
+
+    .skills {
+        padding: 0.5rem;
+    }
+
+    .skills h2 {
+        font-size: 1.25rem;
+    }
+
+    .skills p {
+        font-size: 0.875rem;
+    }
+
+    .hobbies h2 {
+        font-size: 36px;
+    }
+
+    .pagethree h1 {
+        font-size: 1.5em;
+    }
+
+    .pagethree h3 {
+        font-size: 1.25em;
+    }
+
+    .footer .nav2 {
+        flex-direction: column;
+    }
+
+    .footer .social {
+        flex-direction: column;
+    }
+}
+
